@@ -1,0 +1,104 @@
+body {
+  margin: 1em;
+  padding: 0;
+  font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
+  color: #244376;
+}
+
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 10vh
+}
+h1{
+  text-align: center;
+}
+.card{
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 600px ;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+
+.details{
+  width: 100%;
+  height: 500px;
+  background-color: #70BCD1;
+
+}
+.card p {
+  margin: 0;
+
+}
+
+.btnContainer {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+model-viewer {
+  width: 100%;
+  height: 500px;
+  background-color: #70BCD1;
+  --poster-color: #ffffff00;
+}
+
+.attribution {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin: 1em;
+  bottom: 0;
+}
+.attribution div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution h1 {
+  margin: 0 0 0.25em;
+}
+
+.attribution img {
+  height: 2em;
+}
+.attribution img:hover {
+  cursor: pointer;
+}
+
+.attribution .cc {
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+
+.myStats, .fabLabs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: start;
+  gap: 20px;
+}
+.textbox {
+  border: 1px solid #f3f3f3;
+  height: 2rem;
+  outline: none;
+  box-sizing: border-box;
+  padding: 1px 10px;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+}
+
+.textbox:focus {
+  transition: 0.2s ease-in-out;
+  border: 1px solid blue;
+}
+
+
