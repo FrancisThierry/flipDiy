@@ -6,7 +6,7 @@ import './styles/App.css'
 import ModelItems from './components/routes/Home';
 import Dashboard from './components/routes/Dashboard';
 import Fablabs from './components/routes/FabLabs';
-import About from './components/routes/About';
+import Stats from './components/routes/Stats';
 
 const router = createBrowserRouter([
   {
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
     element: <Fablabs/>
   },
   {
-    path: "/about",
-    element: <About/>
+    path: "/stats",
+    element: <Stats/>
   },
 ]);
 

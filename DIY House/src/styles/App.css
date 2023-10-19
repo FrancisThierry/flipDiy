@@ -10,7 +10,9 @@ main {
   vertical-align: center;
   line-height: 10vh
 }
-
+h1{
+  text-align: center;
+}
 .card{
   margin: 3em auto;
   display: flex;
@@ -75,21 +77,14 @@ model-viewer {
   text-decoration: none;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  font-style: italic;
-  line-height: 1.5em;
-}
 
-.fabLabs{
+.myStats, .fabLabs{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  height: 80vh;
+  justify-content: start;
+  gap: 20px;
 }
 .textbox {
   border: 1px solid #f3f3f3;
@@ -105,4 +100,5 @@ footer {
   transition: 0.2s ease-in-out;
   border: 1px solid blue;
 }
+
 

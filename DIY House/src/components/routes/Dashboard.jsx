@@ -1,10 +1,12 @@
 import NavBar from "../NavBar";
-import "../../styles/Dashboard.css"
+import "../../styles/Dashboard.css";
+import Footer from '../Footer';
 
 function Dashboard() {
     return ( 
     <>
         <NavBar/>
+        <section>
         <h1>Votre tableau de bord UpCycling</h1>
         <ul className="listContainer">
             <li>
@@ -28,28 +30,11 @@ function Dashboard() {
                 maxime dolores, est aspernatur, facere neque odio doloribus aliquid earum nostrum!
                 </p>
             </li>
-            <li>
-                <h3>Date d'inscription</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur repudiandae molestiae magni ullam ipsa dolor nemo explicabo in recusandae
-                maxime dolores, est aspernatur, facere neque odio doloribus aliquid earum nostrum!
-                </p>
-            </li>
-            <li>
-                <h3>Data X</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur repudiandae molestiae magni ullam ipsa dolor nemo explicabo in recusandae
-                maxime dolores, est aspernatur, facere neque odio doloribus aliquid earum nostrum!
-                </p>
-            </li>
-            <li>
-                <h3>Data Y</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur repudiandae molestiae magni ullam ipsa dolor nemo explicabo in recusandae
-                maxime dolores, est aspernatur, facere neque odio doloribus aliquid earum nostrum!
-                </p>
-            </li>
         </ul>
+
+        </section>
+        <Footer/>
+       
     </> );
 }
 

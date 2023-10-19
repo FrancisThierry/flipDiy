@@ -37,18 +37,6 @@ export default function ModelViewer({name, glbAddress}){
           auto-rotate ar
           >
           </model-viewer>
-          {/* <section className="attribution">
-          <span>
-          <h1>{name}</h1>
-          </span>
-          <a className="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
-            <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"/>
-            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"/>
-          </a>
-          <div className='btnContainer'>
-             <img src={heartIcon} alt='heart_icon'/>
-          </div>
-          </section> */}
     </main>
     </>
   )

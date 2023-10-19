@@ -7,8 +7,8 @@ export default function FlippingCard({frontSide, backSide}) {
     
     const styles = {
  
-      display: "flex",
-      flexDirection: 'column',
+    //   display: "flex",
+    //   flexDirection: 'column',
       maxwidth: "600 px",
       overflow: "hidden",
     }
