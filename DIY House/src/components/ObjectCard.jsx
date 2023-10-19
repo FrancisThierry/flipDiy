@@ -8,7 +8,7 @@ import instagramLogo from "../assets/instagram_logo.svg?component";
 import twitterLogo from "../assets/twitter_logo.svg?component"
 import details from "../detailsDB";
 
-export default function ObjectCard ({glbFile, objectName}) {
+export default function ObjectCard ({glbFile, objectName, diyNumber}) {
     const [flip, setFlip] = useState(false);
     const [heartIcon, setHeartIcon] = useState(blackHeart)
 
@@ -52,7 +52,7 @@ export default function ObjectCard ({glbFile, objectName}) {
             {details}
             <section className="attribution">
                     <div>
-                        <h1>{objectName}</h1>
+                        <h1>{objectName} <span>({diyNumber})</span></h1>
                     </div>
                     <div>     
                         <img src={flipIcon} alt='flip_icon'  width="50" height="50" onClick={handleFlip}/>
@@ -62,6 +62,8 @@ export default function ObjectCard ({glbFile, objectName}) {
                         <img src={twitterLogo} alt='twitter_logo' width="50" height="50"/>
                         <img src={instagramLogo} alt='instagram_logo' width="50" height="50"/>
                     </div>
+
+               
                   
                     
             </section>
