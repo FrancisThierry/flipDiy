@@ -1,3 +1,5 @@
+//This component generates the stats page from the appliction.
+
 import NavBar from "../NavBar";
 import stats from "../../assets/StatsInfographic.png"
 import '../../styles/Stats.css'

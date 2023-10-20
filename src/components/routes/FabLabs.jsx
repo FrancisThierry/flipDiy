@@ -1,3 +1,5 @@
+//This commponent generates the fablabs page of the application.
+
 import NavBar from "../NavBar";
 import carteFabLabs from '../../assets/CarteFabLab.png'
 import SearchBar from "../SearchBar";

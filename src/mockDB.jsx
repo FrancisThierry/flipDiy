@@ -1,3 +1,9 @@
+//This jsx file is uesd as a mock database that stores the details of each object displayed in the DIY app
+//homepage. 
+
+
+
+//Eventually this variable needs to become an array containing details for every upcycling object. 
 const details = (
   <>
     <div style={{ overflowY: 'scroll', height: '500px', margin:'5%' }}>
@@ -22,5 +28,30 @@ const details = (
   </>
 );
 
+const glbObjects = [
+  { 
+    glbFileAddress: 'src/assets/glb_images/KratkyMilkModele.glb',
+    name : "Kratky",
+    key: 1,
+    bottleNumber:3
+  },
+  {
+    glbFileAddress: 'src/assets/glb_images/rainCollector.glb',
+    name : "Rain Collector",
+    key: 2,
+    bottleNumber:2
+  }
+  ,
+  {
+    glbFileAddress: 'src/assets/glb_images/greenhouse.glb',
+    name : "Green House",
+    key: 3,
+    bottleNumber:1200
+  }
 
-    export default details;
+
+
+]
+
+
+    export {details, glbObjects};

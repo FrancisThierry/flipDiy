@@ -1,10 +1,11 @@
+//This component renders the model-viewer tool from the google library using the glb file stored in the assets folder and passed as a prop to the component. 
+
 import {useState, useRef} from 'react';
 import  blackHeart from "../assets/heart.svg?component";
 import  redHeart from "../assets/heart_red.svg?component";
 
-export default function ModelViewer({name, glbAddress}){
+export default function ModelViewer({glbAddress}){
   
-  const [liked, setLiked] = useState(true);
   const [heartIcon, setHeartIcon] = useState(blackHeart)
   const modelRef = useRef();
 
@@ -19,10 +20,6 @@ export default function ModelViewer({name, glbAddress}){
     else setHeartIcon(blackHeart);
   };
 
-  
-  
-
-  
   return (
     <>
       <main>

@@ -1,15 +1,14 @@
+//This component generates the navbar used to navigate between the different pages of the app utilizing the react router dom library.
+
 import { NavLink } from 'react-router-dom';
 import '../styles/NavBar.css';
 import { useState } from 'react';
-import  heart from "../assets/heart.svg?component";
-import  redHeart from "../assets/heart_red.svg?component";
 import  hamburgerMenu from "../assets/hamburger_menu.svg?component";
 
 
 
 const NavBar = () => {
     const [showNavbar, setShowNavbar] = useState(false)
-    const [heartIcon, setHeartIcon] = useState(heart)
   
     const handleShowNavbar = () => {
       setShowNavbar(!showNavbar)

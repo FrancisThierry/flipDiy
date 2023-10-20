@@ -1,3 +1,5 @@
+//Simple footer rendered at the bottom of each page
+
 function Footer() {
     return ( 
         <>

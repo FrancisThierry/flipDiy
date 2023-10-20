@@ -1,9 +1,11 @@
+//This component handles the routing of the app using the react router dom library. 
+
 import { 
   createBrowserRouter,
   RouterProvider, 
 } from 'react-router-dom';
 import './styles/App.css'
-import ModelItems from './components/routes/Home';
+import Home from './components/routes/Home';
 import Dashboard from './components/routes/Dashboard';
 import Fablabs from './components/routes/FabLabs';
 import Stats from './components/routes/Stats';
@@ -11,7 +13,7 @@ import Stats from './components/routes/Stats';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <ModelItems/>
+    element: <Home/>
   },
   {
     path: "/dashboard",
@@ -31,9 +33,7 @@ const router = createBrowserRouter([
 function App() {
 
   return (
-    <>
        <RouterProvider router={router} />
-    </>
   )
 }
 
